@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/image";
+import Image from "next/image"
 import nafakhum from "@/assets/homepage/nafakhum.png"
 import sundorbon from "@/assets/homepage/sundhorbon.png"
 import saintmartin from "@/assets/homepage/saintmartin.png"

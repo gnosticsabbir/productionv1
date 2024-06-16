@@ -12,7 +12,7 @@ function ChoseSection() {
                     <p className="text-gray-500">A Signature of Excellence</p>
                 </div>
                 <div>
-                <div className="flex justify-center justify-around">
+                <div className="flex justify-center ">
                     <div className="w-[550px] p-4">
                         <h3 className="text-xl font-bold mb-2">Simplifies the process of experiencing the world.</h3>
                         <p className="text-gray-600 mb-4">Discover affordable hotel, airfare, and other travel costs. Save plenty of money in comparison to other websites.</p>
