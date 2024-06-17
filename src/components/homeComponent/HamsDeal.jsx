@@ -13,7 +13,7 @@ const HamsDeal = () => {
             <h1 className="text-3xl p-1">HAMS Flight</h1>
             <div className="p-1">
                 <p className="text-xl">See flights that the airlines are trying to hide from you.</p>
-                <p className="text-xl">We're uncovering airfare pricing loopholes to help you save money</p>
+                <p className="text-xl">We are uncovering airfare pricing loopholes to help you save money</p>
             </div>
         </div>
         <div className="flex justify-around items-center">

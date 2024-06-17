@@ -31,7 +31,7 @@ const ExperianceCard = () => {
                 <div className="flex flex-col justify-between p-2">
                     <div className="space-y-2 p-1">
                         <h6 className="text-xs font-semibold tracking-wide">World Heritage Sundarban Adventure </h6>
-                        <p className="text-[10px] text-gray-800">One of the world's largest mangrove ecosystems is yours to explore with HAMS Sundarban Camping. Make a reservation today to see a variety of animals!</p>
+                        <p className="text-[10px] text-gray-800">One of the world is largest mangrove ecosystems is yours to explore with HAMS Sundarban Camping. Make a reservation today to see a variety of animals!</p>
                     </div>
                 </div>
         </div>
@@ -41,7 +41,7 @@ const ExperianceCard = () => {
                 <div className="flex flex-col justify-between p-2">
                     <div className="space-y-2">
                         <h6 className="text-xs font-semibold tracking-wide">Saint Martin - Teknaf</h6>
-                        <p className="text-[10px] text-gray-800">Saint Martin's, the one and only coral island of Bangladesh, is a small island measuring eight square kilometers. The visible landmass sinks during the tide. Alternatively called the pearl of the sea, it is about 10 km from the mainland at teknaf.</p>
+                        <p className="text-[10px] text-gray-800">Saint Martins, the one and only coral island of Bangladesh, is a small island measuring eight square kilometers. The visible landmass sinks during the tide. Alternatively called the pearl of the sea, it is about 10 km from the mainland at teknaf.</p>
                     </div>
                 </div>
         </div>
@@ -51,7 +51,7 @@ const ExperianceCard = () => {
                 <div className="flex flex-col justify-between p-2">
                     <div className="space-y-2">
                         <h6 className="text-xs font-semibold tracking-wide">Amazon Rainforest camping </h6>
-                        <p className="text-[10px] text-gray-800">The Amazon is one of Earth's last refuges for jaguars, harpy eagles, and pink river dolphins, and it is home to sloths, black spider monkeys, and poison dart frogs. It contains one in 10 known species on Earth, 40,000 plant species, 3,000 freshwater fish species, and more than 370 types of reptiles.</p>
+                        <p className="text-[10px] text-gray-800">The Amazon is one of Earth is last refuges for jaguars, harpy eagles, and pink river dolphins, and it is home to sloths, black spider monkeys, and poison dart frogs. It contains one in 10 known species on Earth, 40,000 plant species, 3,000 freshwater fish species, and more than 370 types of reptiles.</p>
                     </div>
                 </div>
         </div>
@@ -61,7 +61,7 @@ const ExperianceCard = () => {
                 <div className="flex flex-col justify-between p-2">
                     <div className="space-y-2">
                         <h6 className="text-xs font-semibold tracking-wide">Hampta Pass, Himachal Pradesh.</h6>
-                        <p className="text-[10px] text-gray-800">Camping is a cheap kind of therapy that brings you closer to nature's treasures and embarks on a soul-cleansing journey. The top camping locations in India provide travelers with an amazing break from everyday life and captivating experiences. Everyone wants to lose themselves in the embrace of nature and spend nights beneath a blanket of glittering stars.</p>
+                        <p className="text-[10px] text-gray-800">Camping is a cheap kind of therapy that brings you closer to natures treasures and embarks on a soul-cleansing journey. The top camping locations in India provide travelers with an amazing break from everyday life and captivating experiences. Everyone wants to lose themselves in the embrace of nature and spend nights beneath a blanket of glittering stars.</p>
                     </div>
                 </div>
         </div>
