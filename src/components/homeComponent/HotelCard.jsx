@@ -1,5 +1,3 @@
-'use client'
-
 
 import React from 'react'
 import Image from "next/image";
@@ -187,7 +185,7 @@ const HotelCard = () => {
                 <p className="text-[10px] text-gray-600">Dubai Beach, Dubai Hote</p>
                     <div className="flex justify-between">
                         <div>
-                            <p className="text-[10px] text-[#7A7A7A] font-semibold mt-3">Atlantis Dubai is beyond anything youve ever imagined.</p>
+                            <p className="text-[10px] text-[#7A7A7A] font-semibold mt-3">Atlantis Dubai is beyond anything you've ever imagined.</p>
                         </div>
                         <div className="flex gap-x-2">
                             <div>

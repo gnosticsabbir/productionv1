@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaStar } from "react-icons/fa"
-import logoImg from  "@/assets/homepage/feedback.png"
-import Image from "next/image"
+import { FaStar } from "react-icons/fa";
+import logoImg from  "@/assets/homepage/feedback.png";
+import Image from 'next/image';
 
 
 const Feedback = () => {
