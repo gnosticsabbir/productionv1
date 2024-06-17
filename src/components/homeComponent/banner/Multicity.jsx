@@ -369,19 +369,21 @@ const Multicity = () => {
           
         
             <ul>
-                {items.map((item, index) => (
-                    <div className='flex '>
-                      <div key={index}>{item}</div>
+                {
+                  items.map((item, id) => (
+                    <div key={id} className='flex '>
+                      <div key={id}>{item}</div>
 
                       
-                      {index > 0 && (
-                <button
-                  className='text-center bg-white text-red-700 w-[100px] h-[50px] flex items-center justify-center cursor-pointer border-black border-[2px]'
-                  onClick={() => deleteItem(index)}
-                >
-                  Delete
-                </button>
-              )}
+                      {
+                        id > 0 && (
+                        <button 
+                          className='text-center bg-white text-red-700 w-[100px] h-[50px] flex items-center justify-center cursor-pointer border-black border-[2px]'
+                          onClick={() => deleteItem(id)}
+                        >
+                          Delete
+                        </button>
+                       )}
                       
                     </div>
                 ))}
@@ -404,11 +406,11 @@ const Multicity = () => {
                         {isFromInputFocused && fromList.length > 0 && (
                             <div className='h-[500px] w-[400px] bg-red-500 absolute top-[60px] left-[0px] rounded-lg  overflow-y-scroll'>
                                 <div className=''>
-                                    {fromList.map((e, id) => (
+                                    {fromList.map((e, index) => (
                                         <div 
                                             onClick={() => handleFromSelect(e)} 
                                             className='bg-[#F0F8FF] mb-1 hover:bg-[#68afec] px-3 py-2' 
-                                            key={id}
+                                            key={index}
                                         >
                                             <div className='bg-[#FFFFFF] py-2 ps-3 pe-5 border rounded-lg overflow-hidden'>
                                                 <div className='flex justify-between items-center'>
@@ -429,11 +431,11 @@ const Multicity = () => {
                         {isToInputFocused && toList.length > 0 && (
                             <div className='h-[500px] w-[400px] bg-blue-500 absolute top-[60px] left-[258px] rounded-lg  overflow-scroll'>
                                 <div className=''>
-                                    {toList.map((e, id) => (
+                                    {toList.map((e, index) => (
                                         <div 
                                             onClick={() => handleToSelect(e)} 
                                             className='bg-[#F0F8FF] mb-1 hover:bg-[#68afec] px-3 py-2' 
-                                            key={id}
+                                            key={index}
                                         >
                                             <div className='bg-[#FFFFFF] py-2 ps-3 pe-5 border rounded-lg overflow-hidden'>
                                                 <div className='flex justify-between items-center'>
