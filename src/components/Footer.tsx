@@ -4,7 +4,7 @@ import { SiIata } from "react-icons/si";
 import { FaFacebookSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import logo from "@/assets/homepage/logo.png";
 import bkash from "@/assets/homepage/bkashh.png"
-import bankTransfer from "@/assets/homepage/bankTransferr.png"
+import bankTransfer from "@/assets/homepage/bank-transfer.png"
 
 const Footer = () => {
   return (
@@ -79,13 +79,13 @@ const Footer = () => {
                     </div>
                     <div className="space-y-3">
                         <div className="uppercase dark:text-gray-900">Payment Method</div>
-                        <div className="flex">
+                        <div className="flex gap-x-1">
                             <div className="">
                                 <Image src={bkash} alt="" className="w-12"/>
                             </div>
-                            {/* <div>
-                                <Image src={bankTransfer} alt="" className="w-12"/>
-                            </div> */}
+                            <div>
+                                <Image src={bankTransfer} alt="" className="w-11"/>
+                            </div>
                         </div>
                     </div>
                 </div>

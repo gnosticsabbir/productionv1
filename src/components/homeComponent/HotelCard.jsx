@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Image from "next/image";
+import "@/components/homeComponent/css/hoverCard.css"
 import { FaWhatsapp } from "react-icons/fa";
 import { PiShareFatThin } from "react-icons/pi";
 import seePearl from "@/assets/homepage/bookHotel/seePearl.png";
@@ -23,7 +24,7 @@ const HotelCard = () => {
         </div>
          <div className="flex mt-2 gap-x-2">
 
-            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
+            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg card">
             <Image src={seePearl} alt="Apartment" className="w-full h-[138px] object-cover"/>
             
             <div className="p-3">
@@ -41,7 +42,7 @@ const HotelCard = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/message/PHWBQ3GPSKT5O1" target="_blank">
                                      <FaWhatsapp/>
                                 </a>
                             </div>
@@ -74,7 +75,7 @@ const HotelCard = () => {
             </div>
 
 
-            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
+            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg card">
             <Image src={heimat} alt="Apartment" className="w-full h-[138px] object-cover"/>
             
             <div className="p-3">
@@ -92,7 +93,7 @@ const HotelCard = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/message/PHWBQ3GPSKT5O1" target="_blank">
                                      <FaWhatsapp/>
                                 </a>
                             </div>
@@ -125,7 +126,7 @@ const HotelCard = () => {
             </div>
 
 
-            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
+            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg card">
             <Image src={burjAlArab} alt="Apartment" className="w-full h-[138px] object-cover"/>
             
             <div className="p-3">
@@ -143,7 +144,7 @@ const HotelCard = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/message/PHWBQ3GPSKT5O1" target="_blank">
                                      <FaWhatsapp/>
                                 </a>
                             </div>
@@ -176,7 +177,7 @@ const HotelCard = () => {
             </div>
 
 
-            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
+            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg card">
             <Image src={atlantis} alt="Apartment" className="w-full h-[138px] object-cover"/>
             
             <div className="p-3 ">
@@ -185,7 +186,7 @@ const HotelCard = () => {
                 <p className="text-[10px] text-gray-600">Dubai Beach, Dubai Hote</p>
                     <div className="flex justify-between">
                         <div>
-                            <p className="text-[10px] text-[#7A7A7A] font-semibold mt-3">Atlantis Dubai is beyond anything you have ever imagined.</p>
+                            <p className="text-[10px] text-[#7A7A7A] font-semibold mt-3">Atlantis Dubai is beyond anything you've ever imagined.</p>
                         </div>
                         <div className="flex gap-x-2">
                             <div>
@@ -194,7 +195,7 @@ const HotelCard = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/message/PHWBQ3GPSKT5O1" target="_blank">
                                      <FaWhatsapp/>
                                 </a>
                             </div>
@@ -227,7 +228,7 @@ const HotelCard = () => {
             </div>
 
 
-            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
+            <div className="max-w-[228px] mx-auto bg-white shadow-md rounded-lg card">
             <Image src={merina} alt="Apartment" className="w-full h-[138px] object-cover"/>
             
             <div className="p-3 ">
@@ -245,7 +246,7 @@ const HotelCard = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/message/PHWBQ3GPSKT5O1" target="_blank">
                                      <FaWhatsapp/>
                                 </a>
                             </div>

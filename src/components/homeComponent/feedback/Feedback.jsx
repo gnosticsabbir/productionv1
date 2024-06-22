@@ -7,8 +7,8 @@ import Image from 'next/image';
 const Feedback = () => {
   return (
     <div className = "">
-        <div className="card bg-base-100 p-10 shadow-xl">
-        <div className="card-body border border-gray-100 rounded-sm">
+        <div className="bg-base-100 p-10 shadow-xl">
+        <div className="border border-gray-100 rounded-sm">
           <div className="flex gap-4 items-center">
             {/* <Image className="w-16 h-16 rounded-full" src={img} alt=""/> */}
             <Image  className="w-16 h-16 rounded-full" src={logoImg} alt="Picture of the author"/>

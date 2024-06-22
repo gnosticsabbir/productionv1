@@ -23,6 +23,7 @@ const AirportService = () => {
                   <div class="">
                       <select id="passenger" class="w-48 p-4 bg-white border" >
                           <option>Passenger</option>
+                          <option>1</option>
                           <option>2</option>
                           <option>3</option>
                           <option>4</option>

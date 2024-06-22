@@ -62,36 +62,36 @@ const Banner = () => {
             </div>
             <div className="flex items-center justify-center mt-10">
                 <div className="w-auto px-2 pb-2 rounded-md bg-black/50 flex flex-col items-center justify-center mt-8">
-                <div className="lg:w-[650px] bg-white lg:py-2 md:py-2 py-1 rounded-full mx-auto px-5 flex items-center lg:justify-between justify-center relative -top-5 lg:flex-row md:flex-row flex-wrap">
+                <div className="lg:w-[650px] md:w-[550px] w-[450px] bg-white lg:py-2 md:py-1 py-1 rounded-full mx-auto lg:px-5 md:px-3 px-0.5 flex items-center lg:justify-between justify-center relative -top-5 lg:flex-row md:flex-row flex-wrap">
                     <button
                     onClick={() => setTabs("flight")}
-                    className={`text-black flex items-center lg:text-base md:text-sm text-xs gap-1 font-semibold border-r border-[#00000080] pr-4`}
+                    className={`text-black flex items-center gap-0.5 lg:text-base md:text-sm text-xs font-semibold border-r border-[#00000080] lg:pr-4 md:pr-2 pr-1 `}
                     >
-                    Flight <LiaPlaneDepartureSolid fontSize={"1.5rem"} />
+                    Flight <LiaPlaneDepartureSolid fontSize={"1.2rem"}/>
                     </button>
                     <button
                     onClick={() => setTabs("hotel")}
-                    className={`text-black flex items-center lg:text-base md:text-sm text-xs gap-1 font-semibold border-r lg:pl-0 md:pl-4 pl-4 border-[#00000080] pr-4`}
+                    className={`text-black flex items-center gap-0.5 lg:text-base md:text-sm text-xs font-semibold border-r lg:pl-0 md:pl-2 pl-1 border-[#00000080] lg:pr-4 md:pr-2 pr-1`}
                     >
-                    Hotel <MdOutlineLocalHotel fontSize={"1.5rem"} />
+                    Hotel <MdOutlineLocalHotel fontSize={"1.2rem"} />
                     </button>
                     <button
                     onClick={() => setTabs("trip")}
-                    className={`text-black flex items-center lg:text-base md:text-xs text-xs gap-1 font-semibold border-r border-[#00000080] pr-4 lg:pl-0 md:pl-4 pl-4`}
+                    className={`text-black flex items-center gap-0.5 lg:text-base md:text-xs text-xs font-semibold border-r lg:pl-0 md:pl-2 pl-1 border-[#00000080] lg:pr-4 md:pr-2 pr-1`}
                     >
-                    Search Trip <MdOutlineTour fontSize={"1.4rem"} />
+                    Search Trip <MdOutlineTour fontSize={"1.2rem"} />
                     </button>
                     <button
                     onClick={() => setTabs("transport")}
-                    className={`text-black flex items-center lg:text-base md:text-xs text-xs gap-1 font-semibold border-r border-[#00000080] pr-4 lg:pl-0 md:pl-4 pl-4`}
+                    className={`text-black flex items-center gap-0.5 lg:text-base md:text-xs text-xs font-semibold border-r lg:pl-0 md:pl-2 pl-1 border-[#00000080] lg:pr-4 md:pr-2 pr-1`}
                     >
-                    Transport <TbTrain fontSize={"1.5rem"} />
+                    Transport <TbTrain fontSize={"1.2rem"} />
                     </button>
                     <button
                     onClick={() => setTabs("visa")}
-                    className={`text-black flex items-center lg:text-base md:text-sm text-xs gap-1 font-semibold border-[#00000080] lg:pl-0 md:pl-4 pl-4`}
+                    className={`text-black flex items-center gap-0.5 lg:text-base md:text-sm text-xs font-semibold lg:pl-0 md:pl-2 pl-1 border-[#00000080] lg:pr-4 md:pr-2 pr-1 `}
                     >
-                    Apply for visa <BsPassport fontSize={"1.3rem"} />
+                    Apply for visa <BsPassport fontSize={"1.2rem"}/>
                     </button>
                 </div>
 

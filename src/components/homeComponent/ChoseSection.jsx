@@ -12,7 +12,7 @@ function ChoseSection() {
                     <p className="text-gray-500">A Signature of Excellence</p>
                 </div>
                 <div>
-                <div className="flex justify-center ">
+                <div className="flex justify-center justify-around">
                     <div className="w-[550px] p-4">
                         <h3 className="text-xl font-bold mb-2">Simplifies the process of experiencing the world.</h3>
                         <p className="text-gray-600 mb-4">Discover affordable hotel, airfare, and other travel costs. Save plenty of money in comparison to other websites.</p>
@@ -20,7 +20,7 @@ function ChoseSection() {
                         <p className="text-gray-600 mb-4">HAMS is committed to sustainability via collaboration with stakeholders that is stakeholder-friendly, welcoming to families, ecologically friendly, and community-friendly.</p>
                         <h3 className="text-lg font-bold mb-2">HAMS Deal</h3>
                         <p className="text-gray-600 mb-4">See flights that the airlines are trying to hide from you.
-                        We are uncovering airfare and customized trip pricing loopholes to help you save money.</p>
+                        We're uncovering airfare and customized trip pricing loopholes to help you save money.</p>
                         <button className="bg-white text-green-600 border border-green-500 px-4 py-2 rounded">Read More</button>
                     </div>
                     <div className="flex justify-center">

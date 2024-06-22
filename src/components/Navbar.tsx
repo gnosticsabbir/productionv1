@@ -11,7 +11,7 @@ const Navbar = () => {
   <Image src={logo} alt="Logo" className="w-16" />
   </div>
 
-  <div className="hidden md:flex gap-x-5 text-white">
+  <div className="hidden dropdown md:flex gap-x-5 text-white">
       <a href="#" className="hover:underline">Home</a>
       <a href="#" className="hover:underline">Flights</a>
       <a href="#" className="hover:underline">Train</a>
