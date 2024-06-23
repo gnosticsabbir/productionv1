@@ -370,7 +370,7 @@ const Multicity = () => {
         
             <ul>
                 {items.map((item, index) => (
-                    <div className='flex '>
+                    <div className='flex ' key={index}>
                       <div key={index}>{item}</div>
 
                       
