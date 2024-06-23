@@ -6,17 +6,17 @@ const termsAndCondition = () => {
             <div>
                 <h1 className="m-2 text-xl font-bold text-center">Terms & Conditions</h1>
                 <p className="mb-2 text-base"> 
-                    Before using any of the services offered by HAMS, please make sure you have read the terms and conditions carefully.You acknowledge and agree to these terms and conditions by using any of HAMS's contents, information, goods, services. HAMS reserves the right, at any time and for any cause, to alter or amend these terms and conditions without prior notice. You agree to the updated terms and conditions if you keep using the website and its services.Kindly routinely check the terms to make sure you are aware of any updates to the terms and conditions. You agree to the updated terms and conditions if you keep using the website and its services. Kindly routinely check the terms to make sure you are aware of any updates to the terms and conditions.
+                    Before using any of the services offered by HAMS, please make sure you have read the terms and conditions carefully.You acknowledge and agree to these terms and conditions by using any of HAMS&apos;s contents, information, goods, services. HAMS reserves the right, at any time and for any cause, to alter or amend these terms and conditions without prior notice. You agree to the updated terms and conditions if you keep using the website and its services.Kindly routinely check the terms to make sure you are aware of any updates to the terms and conditions. You agree to the updated terms and conditions if you keep using the website and its services. Kindly routinely check the terms to make sure you are aware of any updates to the terms and conditions.
                 </p>
             </div>
     
             <div>
                 <h4 className="m-5 font-bold text-center text-">General Disclaimer</h4>
                 <p className="mb-2">
-                    Travel-related products are not owned by HAMS. We merely act as a conduit between tourists and travel service providers, such as hotels, airlines, and tour companies. It is each provider's entire obligation to ensure that the inventory-related information presented on the Site is accurate, complete, and proper. Short-term changes in the market or other events could result in information on the site becoming erroneous or out of current.
+                    Travel-related products are not owned by HAMS. We merely act as a conduit between tourists and travel service providers, such as hotels, airlines, and tour companies. It is each provider&apos;s entire obligation to ensure that the inventory-related information presented on the Site is accurate, complete, and proper. Short-term changes in the market or other events could result in information on the site becoming erroneous or out of current.
                 </p>
                 <p className="">
-                    HAMS shall serve as the customer's point of contact and make commercially reasonable attempts to help if something goes wrong during the booking or travel period. HAMS will always abide by the established operating procedures of travel agencies (such as hotels, airlines, and tour operators).
+                    HAMS shall serve as the customer&apos;s point of contact and make commercially reasonable attempts to help if something goes wrong during the booking or travel period. HAMS will always abide by the established operating procedures of travel agencies (such as hotels, airlines, and tour operators).
                 </p>
             </div>
     
