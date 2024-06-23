@@ -5,6 +5,7 @@ import { FaFacebookSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa"
 import logo from "@/assets/homepage/logo.png";
 import bkash from "@/assets/homepage/bkashh.png"
 import bankTransfer from "@/assets/homepage/bank-transfer.png"
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -49,12 +50,13 @@ const Footer = () => {
                         <h3 className="tracking-wide uppercase dark:text-gray-900">Company</h3>
                         <ul className="space-y-1">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Privacy policy</a> 
-                                {/* <Link to='/privacyPolicy'>Privacy policy</Link> */}
+                                
+                                <Link  href='/pages/privacyPolicy'> Privacy policy </Link>
+                                
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Terms & conditons</a>
-                                {/* <Link  to='/termsAndCondition'> Terms & conditons </Link> */}
+                                
+                                <Link  href='/pages/termsAndCondition'> Terms & conditons </Link>
                             </li>
                         </ul>
                     </div>
